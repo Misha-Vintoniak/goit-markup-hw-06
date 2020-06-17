@@ -81,16 +81,12 @@
                             </label>
                         </div>
                         <div class="checkbox-container">
-                            <div class="form-field">
-                                <label class="checkbox-label">
-                                    <input class="checkbox-input" type="checkbox" name="policy">
-                                    <span class="checkbox-text">Соглашаюсь с рассылкой и принимаю</span>
-                                    <span><a href="#" class="policy">Условия договора</a></span>
-                                    <svg class="icon-check" width="15" height="15">
-                                        <use href='./img/sprite.svg#icon-check'></use>
-                                    </svg>
-                                </label>
-                            </div>
+                            <label class="form-field">
+                                <input class="checkbox-input" type="checkbox" name="policy">
+                                <span class="checkbox-text">Соглашаюсь с рассылкой и принимаю</span>
+                                <span><a href="#" class="policy">Условия договора</a></span>
+                                <span class="icon-check"></span>
+                            </label>
                         </div>
                         <button type="submit" class="button">Отправить</button>
 
@@ -358,7 +354,8 @@
                 <div class="sign">
                     <p class="title">Подпишитесь на рассылку</p>
                     <div class="two">
-                        <input class="signature" type="email" name="email" placeholder="E-mail">
+                        <input class="signature" type="email" name="email" id="signature" placeholder="E-mail">
+                        <label for="signature"></label>
                         <button class="button">
                             <link class="button-title" rel="stylesheet" href="Web-Studio">Подписаться
                             <svg class="icon" width="24" height="24">
