@@ -49,11 +49,10 @@
                             <use href='./img/sprite.svg#icon-close'></use>
                         </svg>
                     </button>
-                    <form class="form"></form>
-                        <b class="form-caption">
-                         Оставьте свои данные, мы вам перезвоним
-                        </b>
+                    <form class="form">
+                        <p class="form-caption">Оставьте свои данные, мы вам перезвоним</p>
                         <div class="input-container">
+                            <!-- Имя -->
                             <label class="form-field">
                                 <input  class="form-input" type="text" type="text" name="name" placeholder=" " autofocus="">
                                 <svg class="icon" width="18" height="18">
@@ -61,6 +60,7 @@
                                 </svg>
                                 <span class="form-label">Имя</span>
                             </label>
+                            <!-- Телефон -->
                             <label class="form-field">
                                 <input class="form-input" type="tel" name="tel" placeholder=" ">
                                 <svg class="icon" width="18" height="18">
@@ -68,6 +68,7 @@
                                 </svg>
                                 <span class="form-label">Телефон</span>
                             </label>
+                            <!-- Почта -->
                             <label class="form-field">
                                 <input class="form-input" type="email" name="email" placeholder=" " required="" autocomplete="on">
                                 <svg class="icon" width="18" height="18">
@@ -75,6 +76,7 @@
                                 </svg>
                                 <span class="form-label">Почта</span>
                             </label>
+                            <!-- Комментарий -->
                             <label class="form-field">
                                 <textarea class="form-input comment" name="comment" placeholder=" "></textarea>
                                 <span class="form-label">Комментарий</span>
@@ -89,7 +91,7 @@
                             </label>
                         </div>
                         <button type="submit" class="button">Отправить</button>
-
+                    </form>
                 </div>
             </div>
         </section>
